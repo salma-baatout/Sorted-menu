@@ -1,7 +1,5 @@
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Sort from "./Sort";
-
-
 
 const desserts = [
   {
@@ -28,11 +26,9 @@ const desserts = [
 
 function App() {
   return (
-    <div className="App">
-    
-    <h2>List of desserts:</h2>
+    <div className="container my-4 ">
+      <h2 className="mb-4">List of Desserts:</h2>
       <Sort data={desserts} />
-
     </div>
   );
 }
