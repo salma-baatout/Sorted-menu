@@ -2,3 +2,29 @@
   text-align: center;
 }
 
+.my-form-group{
+  margin-bottom: 1rem;
+  background-color: #DEEFE7;
+  border-radius: 4px;
+
+}
+.label{
+  
+}
+.my-select{
+  
+  background-color: #DEEFE7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  float: right;
+}
+
+.Title{
+  margin-top: 20px;
+  color: #159A9C;
+  font-family: "Darby Sans Web";
+  text-align: center;
+}
